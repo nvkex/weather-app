@@ -27,6 +27,8 @@
     `;
 
     //Update card and icon
+    const iconSrc = `img/icons/${cityWeather.WeatherIcon}.svg`;
+    icon.setAttribute('src', iconSrc);
     
     let timeSrc = null;
     if(cityWeather.IsDayTime){
