@@ -29,7 +29,7 @@
     //Update card and icon
     
     let timeSrc = null;
-    if(weather.IsDayTime){
+    if(cityWeather.IsDayTime){
         timeSrc = 'img/day.svg';
     }
     else{
